@@ -1,0 +1,27 @@
+{
+  "name": "opsy",
+  "owner": {
+    "name": "Daniel Ramirez",
+    "email": "dxas90@gmail.com",
+    "url": "https://github.com/dxas90"
+  },
+  "metadata": {
+    "description": "Production-ready workflow orchestration with 72 focused plugins, 112 specialized agents, and 146 skills - optimized for granular installation and minimal token usage",
+    "version": "1.5.6"
+  },
+  "plugins": [
+    {
+      "name": "musketeers",
+      "description": "Orchestrate multi-agent teams for parallel code review, hypothesis-driven debugging, and coordinated feature development using Claude Code's Agent Teams, based on agent-teams but with better names",
+      "version": "1.0.2",
+      "author": {
+        "name": "Daniel Ramirez",
+        "email": "dxas90@gmail.com"
+      },
+      "source": "./teams/musketeers",
+      "category": "workflows",
+      "homepage": "https://github.com/dxas90/opsy-bag",
+      "license": "MIT"
+    }
+  ]
+}
