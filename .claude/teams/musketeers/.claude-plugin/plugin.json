@@ -1,0 +1,10 @@
+{
+  "name": "musketeers",
+  "version": "1.0.2",
+  "description": "Orchestrate multi-agent teams for parallel code review, hypothesis-driven debugging, and coordinated feature development using Claude Code's Agent Teams",
+  "author": {
+    "name": "Daniel Ramirez",
+    "email": "dxas90@gmail.com"
+  },
+  "license": "MIT"
+}
