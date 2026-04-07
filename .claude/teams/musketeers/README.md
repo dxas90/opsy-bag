@@ -25,6 +25,19 @@ Available display modes:
 - `"tmux"` — Each teammate runs in a tmux pane (recommended)
 - `"iterm2"` — Each teammate gets an iTerm2 tab (macOS only)
 - `"in-process"` — Teammates run in the same process (default)
+### Installation
+
+First, add the marketplace (if you haven't already):
+
+```
+/plugin marketplace add dxas90/opsy-bag
+```
+
+Then install the plugin:
+
+```
+/plugin install musketeers@opsy
+```
 
 ## Features
 
