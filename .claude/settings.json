@@ -73,6 +73,10 @@
       "Read(**/*kubeconfig*.json)"
     ]
   },
+  "teammateMode": "tmux",
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  }
   "hooks": {
     "PreToolUse": [
       {
