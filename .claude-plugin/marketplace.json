@@ -18,7 +18,7 @@
         "name": "Daniel Ramirez",
         "email": "dxas90@gmail.com"
       },
-      "source": "./teams/musketeers",
+      "source": "./.claude/teams/musketeers",
       "category": "workflows",
       "homepage": "https://github.com/dxas90/opsy-bag",
       "license": "MIT"
