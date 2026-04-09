@@ -73,7 +73,7 @@ If a file genuinely needs changes from multiple implementers:
 When implementers need to coordinate at boundaries:
 
 ```typescript
-// src/types/auth-contract.ts (owned by DArtagnan, read-only for implementers)
+// src/types/auth-contract.ts (owned by Dumas, read-only for implementers)
 export interface AuthResponse {
   token: string;
   user: UserProfile;

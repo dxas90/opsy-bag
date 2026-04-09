@@ -63,7 +63,7 @@ Orchestrate parallel feature development with multiple implementer agents. Decom
    git checkout -b {branch-name}
    ```
 2. Use `Teammate` tool with `operation: "spawnTeam"`, team name: `feature-{timestamp}`
-3. Spawn a `DArtagnan` agent to coordinate
+3. Spawn a `Dumas` agent to coordinate
 4. For each work stream, use `Task` tool to spawn a `Aramis`:
    - `name`: `implementer-{n}`
    - `subagent_type`: "musketeers:Aramis"

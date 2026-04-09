@@ -11,7 +11,7 @@ Does the teammate need to modify files?
 │         │         ├── Code review → musketeers:Athos
 │         │         ├── Bug investigation → musketeers:Porthos
 │         │         ├── Feature building → musketeers:Aramis
-│         │         └── Team coordination → musketeers:DArtagnan
+│         │         └── Team coordination → musketeers:Dumas
 │         └── NO → general-purpose
 └── NO → Does it need deep codebase exploration?
           ├── YES → Explore
@@ -25,7 +25,7 @@ Does the teammate need to modify files?
 | general-purpose              | Yes      | Yes       | Yes      | Yes      | No                 |
 | Explore                      | Yes      | No        | No       | No       | Search/explore     |
 | Plan                         | Yes      | No        | No       | No       | Architecture       |
-| musketeers:DArtagnan        | Yes      | Yes       | Yes      | Yes      | Team orchestration |
+| musketeers:Dumas        | Yes      | Yes       | Yes      | Yes      | Team orchestration |
 | musketeers:Athos    | Yes      | Yes       | Yes      | Yes      | Code review        |
 | musketeers:Porthos    | Yes      | Yes       | Yes      | Yes      | Bug investigation  |
 | musketeers:Aramis | Yes      | Yes       | Yes      | Yes      | Feature building   |
@@ -59,7 +59,7 @@ Does the teammate need to modify files?
 - Creating task decompositions
 - Architecture review (read-only)
 
-### DArtagnan
+### Dumas
 
 - Coordinating multiple teammates
 - Decomposing work and managing tasks

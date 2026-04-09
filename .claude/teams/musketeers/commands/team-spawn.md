@@ -37,12 +37,12 @@ If a preset is specified, use these configurations:
 
 **`feature`** — Parallel feature development (default: 3 members)
 
-- Spawn 1 `DArtagnan` agent + 2 `Aramis` agents
+- Spawn 1 `Dumas` agent + 2 `Aramis` agents
 - Team name default: `feature-team`
 
 **`fullstack`** — Full-stack development (default: 4 members)
 
-- Spawn 1 `Aramis` (frontend), 1 `Aramis` (backend), 1 `Aramis` (tests), 1 `DArtagnan`
+- Spawn 1 `Aramis` (frontend), 1 `Aramis` (backend), 1 `Aramis` (tests), 1 `Dumas`
 - Team name default: `fullstack-team`
 
 **`research`** — Parallel codebase, web, and documentation research (default: 3 members)
@@ -58,7 +58,7 @@ If a preset is specified, use these configurations:
 
 **`migration`** — Codebase migration or large refactor (default: 4 members)
 
-- Spawn 1 `DArtagnan` (coordination + migration plan), 2 `Aramis` (parallel migration streams), 1 `Athos` (verify migration correctness)
+- Spawn 1 `Dumas` (coordination + migration plan), 2 `Aramis` (parallel migration streams), 1 `Athos` (verify migration correctness)
 - Team name default: `migration-team`
 
 ### Custom Composition
@@ -66,7 +66,7 @@ If a preset is specified, use these configurations:
 If "custom" is specified:
 
 1. Use AskUserQuestion to prompt for team size (2-5 members)
-2. For each member, ask for role selection: DArtagnan, Athos, Porthos, Aramis
+2. For each member, ask for role selection: Dumas, Athos, Porthos, Aramis
 3. Ask for team name if not provided via `--name`
 
 ## Phase 2: Team Creation

@@ -46,13 +46,13 @@ Best practices for composing multi-agent teams, selecting team sizes, choosing a
 ### Feature Team
 
 - **Size**: 3 (1 lead + 2 implementers)
-- **Agents**: 1x `DArtagnan` + 2x `Aramis`
+- **Agents**: 1x `Dumas` + 2x `Aramis`
 - **Use when**: Feature can be decomposed into parallel work streams
 
 ### Fullstack Team
 
 - **Size**: 4 (1 lead + 3 implementers)
-- **Agents**: 1x `DArtagnan` + 1x frontend `Aramis` + 1x backend `Aramis` + 1x test `Aramis`
+- **Agents**: 1x `Dumas` + 1x frontend `Aramis` + 1x backend `Aramis` + 1x test `Aramis`
 - **Use when**: Feature spans frontend, backend, and test layers
 
 ### Research Team
@@ -73,7 +73,7 @@ Best practices for composing multi-agent teams, selecting team sizes, choosing a
 ### Migration Team
 
 - **Size**: 4 (1 lead + 2 implementers + 1 reviewer)
-- **Agents**: 1x `DArtagnan` + 2x `Aramis` + 1x `Athos`
+- **Agents**: 1x `Dumas` + 2x `Aramis` + 1x `Athos`
 - **Use when**: Large codebase migration (framework upgrade, language port, API version bump) requiring parallel work with correctness verification
 
 ## Agent Type Selection
@@ -88,7 +88,7 @@ When spawning teammates with the Task tool, choose `subagent_type` based on what
 | `musketeers:Athos`    | All tools                                 | Code review with structured findings                       |
 | `musketeers:Porthos`    | All tools                                 | Hypothesis-driven investigation                            |
 | `musketeers:Aramis` | All tools                                 | Building features within file ownership boundaries         |
-| `musketeers:DArtagnan`        | All tools                                 | Team orchestration and coordination                        |
+| `musketeers:Dumas`        | All tools                                 | Team orchestration and coordination                        |
 
 **Key distinction**: Read-only agents (Explore, Plan) cannot modify files. Never assign implementation tasks to read-only agents.
 
@@ -112,7 +112,7 @@ Configure in `~/.claude/settings.json`:
 
 When building custom teams:
 
-1. **Every team needs a coordinator** — Either designate a `DArtagnan` or have the user coordinate directly
+1. **Every team needs a coordinator** — Either designate a `Dumas` or have the user coordinate directly
 2. **Match roles to agent types** — Use specialized agents (reviewer, debugger, implementer) when available
 3. **Avoid duplicate roles** — Two agents doing the same thing wastes resources
 4. **Define boundaries upfront** — Each teammate needs clear ownership of files or responsibilities

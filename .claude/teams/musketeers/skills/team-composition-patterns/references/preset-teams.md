@@ -75,14 +75,14 @@ Description:
 ### Configuration
 
 - **Team Size**: 3 (1 lead + 2 implementers)
-- **Agent Types**: `musketeers:DArtagnan` + `musketeers:Aramis`
+- **Agent Types**: `musketeers:Dumas` + `musketeers:Aramis`
 - **Display Mode**: tmux recommended
 
 ### Members
 
 | Name          | Role             | Responsibility                           |
 | ------------- | ---------------- | ---------------------------------------- |
-| feature-lead  | DArtagnan        | Decomposition, coordination, integration |
+| feature-lead  | Dumas        | Decomposition, coordination, integration |
 | implementer-1 | Aramis | Work stream 1 (assigned files)           |
 | implementer-2 | Aramis | Work stream 2 (assigned files)           |
 
@@ -105,14 +105,14 @@ Description:
 ### Configuration
 
 - **Team Size**: 4 (1 lead + 3 implementers)
-- **Agent Types**: `musketeers:DArtagnan` + 3x `musketeers:Aramis`
+- **Agent Types**: `musketeers:Dumas` + 3x `musketeers:Aramis`
 - **Display Mode**: tmux recommended
 
 ### Members
 
 | Name           | Role             | Layer                            |
 | -------------- | ---------------- | -------------------------------- |
-| fullstack-lead | DArtagnan        | Coordination, integration        |
+| fullstack-lead | Dumas        | Coordination, integration        |
 | frontend-dev   | Aramis | UI components, client-side logic |
 | backend-dev    | Aramis | API endpoints, business logic    |
 | test-dev       | Aramis | Unit, integration, e2e tests     |
@@ -223,14 +223,14 @@ Description:
 ### Configuration
 
 - **Team Size**: 4 (1 lead + 2 implementers + 1 reviewer)
-- **Agent Types**: `musketeers:DArtagnan` + 2x `musketeers:Aramis` + `musketeers:Athos`
+- **Agent Types**: `musketeers:Dumas` + 2x `musketeers:Aramis` + `musketeers:Athos`
 - **Display Mode**: tmux recommended
 
 ### Members
 
 | Name             | Role             | Responsibility                                  |
 | ---------------- | ---------------- | ----------------------------------------------- |
-| migration-lead   | DArtagnan        | Migration plan, coordination, conflict handling |
+| migration-lead   | Dumas        | Migration plan, coordination, conflict handling |
 | migrator-1       | Aramis | Migration stream 1 (assigned files/modules)     |
 | migrator-2       | Aramis | Migration stream 2 (assigned files/modules)     |
 | migration-verify | Athos    | Verify migrated code correctness and patterns   |
