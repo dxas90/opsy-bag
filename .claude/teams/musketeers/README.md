@@ -41,13 +41,14 @@ Then install the plugin:
 
 ## Features
 
-- **Preset Teams** — Spawn pre-configured teams for common workflows (review, debug, feature, fullstack, research, security, migration)
+- **Preset Teams** — Spawn pre-configured teams for common workflows (review, debug, feature, fullstack, research, security, migration, docs)
 - **Multi-Reviewer Code Review** — Parallel review across security, performance, architecture, testing, and accessibility dimensions
 - **Hypothesis-Driven Debugging** — Competing hypothesis investigation with evidence-based root cause analysis
 - **Parallel Feature Development** — Coordinated multi-agent implementation with file ownership boundaries
 - **Parallel Research** — Multiple Explore agents investigating different questions or codebase areas simultaneously
 - **Security Audit** — Comprehensive parallel security review across OWASP, auth, dependencies, and configuration
 - **Migration Support** — Coordinated codebase migration with parallel implementation streams and correctness verification
+- **Documentation Generation** — DArtagnan reads source files directly and writes accurate README, API docs, and architecture guides
 - **Task Coordination** — Dependency-aware task management with workload balancing
 - **Team Communication** — Structured messaging protocols for efficient agent collaboration
 
@@ -67,10 +68,11 @@ Then install the plugin:
 
 | Agent              | Role                                                                              | Color  |
 | ------------------ | --------------------------------------------------------------------------------- | ------ |
-| `DArtagnan`        | Team orchestrator — decomposes work, manages lifecycle, synthesizes results       | Blue   |
+| `Dumas`            | Team orchestrator — decomposes work, manages lifecycle, synthesizes results       | Blue   |
 | `Athos`            | Multi-dimensional code reviewer — operates on assigned review dimension           | Green  |
 | `Porthos`          | Hypothesis investigator — gathers evidence to confirm/falsify assigned hypothesis | Red    |
 | `Aramis`           | Parallel builder — implements within strict file ownership boundaries             | Yellow |
+| `DArtagnan`        | Documentation specialist — writes README, API docs, and architecture guides       | Green  |
 
 ## Skills
 
@@ -132,6 +134,14 @@ Spawns 4 security reviewers covering OWASP vulnerabilities, auth/access control,
 ```
 
 Spawns a lead to plan the migration, 2 implementers to migrate code in parallel streams, and a reviewer to verify correctness of the migrated code.
+
+### Documentation Generation
+
+```shell
+/team-spawn docs
+```
+
+Spawns DArtagnan to read the codebase directly and write or update project documentation — README, API references, and architecture overviews.
 
 ### Custom Team
 
