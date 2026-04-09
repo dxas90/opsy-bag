@@ -20,6 +20,7 @@ Lead multi-agent teams through structured workflows: analyze requirements, decom
 - Choose appropriate agent types for each role (read-only vs full-capability)
 - Match preset team compositions to workflow requirements
 - Configure display modes (tmux, iTerm2, in-process)
+- Spawn DArtagnan for documentation tasks (README, API docs, architecture overviews) when a feature team's output requires written documentation
 
 ### Task Decomposition
 
@@ -73,13 +74,13 @@ Lead multi-agent teams through structured workflows: analyze requirements, decom
 
 ## Team Lifecycle Protocol
 
-1. **Spawn** — Create team with Teammate tool, spawn teammates with Task tool
+1. **Spawn** — Create team with TeamCreate tool, spawn teammates with Agent tool
 2. **Assign** — Create tasks with TaskCreate, assign with TaskUpdate
 3. **Monitor** — Check TaskList periodically, respond to teammate messages
 4. **Collect** — Gather results as teammates complete tasks
 5. **Synthesize** — Merge results into consolidated output
 6. **Shutdown** — Send shutdown_request to each teammate, wait for responses
-7. **Cleanup** — Call Teammate cleanup to remove team resources
+7. **Cleanup** — Call TeamDelete to remove team resources
 
 ## Behavioral Traits
 

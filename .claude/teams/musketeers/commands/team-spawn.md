@@ -44,6 +44,7 @@ If a preset is specified, use these configurations:
 
 - Spawn 1 `Aramis` (frontend), 1 `Aramis` (backend), 1 `Aramis` (tests), 1 `Dumas`
 - Team name default: `fullstack-team`
+- Optionally add 1 `DArtagnan` for documentation if the feature requires user-facing docs
 
 **`research`** — Parallel codebase, web, and documentation research (default: 3 members)
 
@@ -61,18 +62,23 @@ If a preset is specified, use these configurations:
 - Spawn 1 `Dumas` (coordination + migration plan), 2 `Aramis` (parallel migration streams), 1 `Athos` (verify migration correctness)
 - Team name default: `migration-team`
 
+**`docs`** — Documentation generation (default: 1 member)
+
+- Spawn 1 `DArtagnan` agent assigned to write/update project documentation (README, API docs, architecture overviews)
+- Team name default: `docs-team`
+
 ### Custom Composition
 
 If "custom" is specified:
 
 1. Use AskUserQuestion to prompt for team size (2-5 members)
-2. For each member, ask for role selection: Dumas, Athos, Porthos, Aramis
+2. For each member, ask for role selection: Dumas, Athos, Porthos, Aramis, DArtagnan
 3. Ask for team name if not provided via `--name`
 
 ## Phase 2: Team Creation
 
-1. Use the `Teammate` tool with `operation: "spawnTeam"` to create the team
-2. For each team member, use the `Task` tool with:
+1. Use the `TeamCreate` tool to create the team with `team_name` and `description`
+2. For each team member, use the `Agent` tool with:
    - `team_name`: the team name
    - `name`: descriptive member name (e.g., "security-reviewer", "hypothesis-1")
    - `subagent_type`: "general-purpose" (teammates need full tool access)
@@ -91,7 +97,7 @@ If "custom" is specified:
 
 Display a formatted team summary:
 
-```
+```text
 Team "{team-name}" spawned successfully!
 
 Members:
